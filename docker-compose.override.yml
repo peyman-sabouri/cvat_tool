@@ -1,0 +1,8 @@
+version: "2.3"
+
+services:
+  cvat:
+    environment:
+      ALLOWED_HOSTS: 52.201.60.249
+    ports:
+      - "80:8080"
