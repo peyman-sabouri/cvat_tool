@@ -3,6 +3,6 @@ version: "2.3"
 services:
   cvat:
     environment:
-      ALLOWED_HOSTS: 52.201.60.249
+      ALLOWED_HOSTS: 18.211.68.224/
     ports:
       - "80:8080"
