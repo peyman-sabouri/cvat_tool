@@ -20,9 +20,4 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 
 sudo apt-get install -y git
-git clone https://github.com/opencv/cvat
-cd cvat
 
-sudo docker-compose build
-
-sudo docker-compose up -d
