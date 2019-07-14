@@ -23,6 +23,6 @@ sudo apt-get install -y git
 git clone https://github.com/opencv/cvat
 cd cvat
 
-docker-compose build
+sudo docker-compose build
 
-docker-compose up -d
+sudo docker-compose up -d
