@@ -16,8 +16,4 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 sudo groupadd docker
 sudo usermod -aG docker $USER
 
-sudo groupadd docker
-sudo usermod -aG docker $USER
-
-sudo apt-get install -y git
 
